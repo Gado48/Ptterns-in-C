@@ -6,9 +6,9 @@ int main()
     int cols;
     int rows;
 
-    printf("Enter the number of Columns you want: ");
-    scanf("%d", &cols);
     printf("Enter the number of Rows you want: ");
+    scanf("%d", &cols);
+    printf("Enter the number of Columns you want: ");
     scanf("%d", &rows);
 
     // Solid rectangle
