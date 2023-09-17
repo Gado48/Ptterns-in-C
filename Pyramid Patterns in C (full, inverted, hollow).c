@@ -39,7 +39,8 @@ int main()
     printf("\n\n");
 
     //Hollow full pyramid
-    for(i = 1; i <= height; i++) {
+    for(i = 1; i <= height; i++)
+    {
       for(j = 1; j <= height-i; j++)
       {
          printf(" ");
@@ -50,7 +51,9 @@ int main()
          {
             printf("* ");
          }
-      } else {
+      }
+      else
+      {
          printf("*");
          for(j = 1; j <= (2*i - 3); j++)
          {
